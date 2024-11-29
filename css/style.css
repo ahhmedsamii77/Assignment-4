@@ -1,0 +1,48 @@
+/* Start General */
+body {
+  font-family: Helvetica;
+}
+/* End General */
+main {
+  background-color: #24353f;
+}
+h1 {
+  color: #17a2b8;
+  font-size: 40px;
+  font-weight: 500;
+}
+.login-system {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control {
+  color: #fff;
+  background-color: transparent;
+  border-radius: 5px;
+}
+::placeholder {
+  color: #fff !important;
+  opacity: 0.5 !important ;
+}
+
+.form-control:focus {
+  color: #fff;
+  background-color: unset;
+  border-color: #86b7fe;
+  box-shadow: unset;
+}
+.login-system p a{
+  text-decoration: none;
+}
+.login-system p a:hover{
+  text-decoration: underline;
+}
+.homeMessage{
+  color: #fff;
+  font-size: 40px;
+}
+.navbar{
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
